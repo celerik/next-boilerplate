@@ -4,7 +4,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core';
 
 // @scripts
-import { ReactComponent as ProspectiveIcon } from './logo.svg';
+import { ReactComponent as DharmaIcon } from './logo.svg';
 import classNames from 'classnames';
 
 // @styles
@@ -16,7 +16,7 @@ const Logo = ({
     rounded,
     size
 }) => (
-    <ProspectiveIcon
+    <DharmaIcon
         height={size}
         width={size}
         className={classNames(
