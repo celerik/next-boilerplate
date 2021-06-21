@@ -2,9 +2,7 @@ import React from 'react';
 
 const Index = () => {
     return (  
-        <div>
-            From Index
-        </div>    
+        <div>From Index</div>    
     );
 }
 
