@@ -3,7 +3,6 @@ import initialState from './initial-state';
 import language from './text';
 import masterData from './master-data';
 import mockData from './mock-data';
-import routes from './routes';
 import settings from './settings';
 import { getServices } from './services';
 
