@@ -44,19 +44,7 @@ We suggest using npm ```http-server``` for checking the status of the build befo
 
 ```
 npx http-server ./build
-```
 
-##### Docker
-After the creationg of your ```build``` folder with ```npm run dev```, you can create and run Docker images with:
-```
-# Create new Docker Image
-docker build -t $IMAGE_NAME .
-docker run -it -rm -p $PORT_BIND:$PORT_LISTEN --name $NAME $IMAGE_NAME
-```
-For example:
-```
-docker build -t boilerplate .
-docker run -it -p 3000:0 --name next-app boilerplate
 ```
 
 ##### Avaliable Scripts
@@ -111,7 +99,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create Next App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
